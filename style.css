@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.universal-padding{
+    padding-left: 62px;
+    padding-right: 62px;
+}
+
+.nav-li{
+    font-size: 14px;
+    text-transform: uppercase;
+    list-style: none;
+    margin: 0px 28px;
+    font-weight: 500;
+}
+
+.banner{
+    background-image: url(Media/Images/banner.png);
+    height: 400px;
+    width: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.sec1-card{
+    width: 356px;
+    height: 270px;
+    background-image: url(Media/Images/sec1.png);
+    border: solid grey 1px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.sec1-card h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec5-cont{
+    position: relative;
+    padding-bottom: 270px;
+}
+
+.sec5-item{
+    position: absolute;
+}
+
+.sec5-item:hover{
+    z-index: 10;
+}
+
+.z-0{
+    z-index: 0;
+}
+
+.z-1{
+    z-index: 1;
+}
+
+.z-2{
+    z-index: 2;
+}
+
+.btn2:hover{
+    background-color: #5f259f;
+    color: white;
+}
+
+.btn2{
+    color: #6739b7;
+    background-color: white; 
+}
+
+.banner2{
+    background: url(Media/Images/trust-banner-861f26253b71e00c083fd5f6c2ea30fc.png) #967edd ;
+    background-size: cover;
+    background-position: center;
+    padding: 25px;
+    height: 330px;
+}
+
+.sec-img{
+    background-image: url(Media/Images/partner-section-desk.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 400px;
+    width: 100%;
+    margin: 50px;
+}
+
+.bnav-h{
+    font-size: 40px;
+    color: white;
+}
+
+.before-nav{
+    background: url(Media/Images/beforenav\ image.png) #7962be;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    height: 444px;
+    width: 100%;
+    padding: 130px ;
+    box-sizing: border-box;
+}
+
+.bnav-p{
+    font-size: 20px;
+    color: white;
+    font-weight: 200;
+}
+
+.footer-ul li{
+    list-style-type: none;
+}
+
+.col{
+    color: white;
+}
